@@ -1,0 +1,109 @@
+# Task 1: Variable Declaration and Data Type
+
+a = "hello"
+b = 100
+c = 60.50
+d = False
+
+print(a, type (a)) 
+print(b, type (b))
+print(c, type (c))
+print(d, type (d))
+--------------------------------------------------
+hello <class 'str'>
+100 <class 'int'>
+60.5 <class 'float'>
+False <class 'bool'>
+
+
+# Task 2: String Manipulation
+
+X_Str = "hello world"
+
+print(X_Str.upper()) # convert to uppercase
+print(X_Str.capitalize()) # capitalize first word
+print(X_Str[0:5].capitalize()) # parse first word and capitalize
+print(X_Str * 3) # display message 3 times
+-------------------------------------------------------------
+HELLO WORLD
+Hello world
+Hello
+hello worldhello worldhello world
+
+
+# Task 3: Basic Operations
+
+x, y = 20, 5
+
+# Arithmetic
+print("Arithmetic:")
+print(x + y) 
+print(x - y) 
+print(x * y) 
+print(int(x / y))
+print()
+
+# Camparison
+print("Comparison:")
+print(x > y)
+print(x < y)
+print(x == y)
+print(x != y)
+print()
+
+# Logical
+print("Logical:")
+print(x == 30 and y == 5)
+print(x > 5 and y < 20)
+print(x < 10 or y > 10) 
+print(x < 50 or y > 0)
+print(x > y)
+print(y > x)
+--------------------------------------------------------
+Arithmetic:
+25
+15
+100
+4
+
+Comparison:
+True
+False
+False
+True
+
+Logical:
+False
+True
+False
+True
+True
+False
+
+
+# Task 4: Data Collection
+
+x_List = ["red", "blue", "green", "yellow", "orange"]
+x_Dict = {"Planet": "Earth", "Moons": 1}
+x_Tuple = (100, 500, 1000, 2000, 4000)
+
+print(x_List[1:4]) # Acces range of elements
+print(x_Dict["Planet"] + " has " + str(x_Dict["Moons"]) + " Moon") # Access elements from a dictionary and form a statement
+print(x_Tuple[2:4]) # Access elements from a tuple in a range
+---------------------------------------------------------------------
+['blue', 'green', 'yellow']
+Earth has 1 Moon
+(1000, 2000)
+
+
+# Task 5: Expression Combination
+
+result = int(((((x_Tuple[3] + b) - (x_Tuple[2] + x_Tuple[1])) / b) + len(X_Str)) + y - x)
+
+print("Final Result: ", result)
+---------------------------------------------------------------------------------------------
+Final Result:  2
+
+
+
+
